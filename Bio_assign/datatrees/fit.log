@@ -1,0 +1,185 @@
+
+
+*******************************************************************************
+Wed Sep 25 21:46:21 2019
+
+
+FIT:    data read from 'curve' using 1:2:3 yerror
+        format = x:z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = log(a * x + c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             c            
+   0 1.3912853466e+13   0.00e+00  1.00e+03    1.000000e+00   1.000000e+00
+ 835 5.9673187453e+12  -1.00e+00  1.00e-21    8.929947e+27   9.051249e+22
+
+After 835 iterations the fit converged.
+final sum of squares of residuals : 5.96732e+12
+rel. change during last iteration : -9.99631e-06
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 174043
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.0291e+10
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 8.92995e+27      +/- 1.168e+30    (1.308e+04%)
+c               = 9.05125e+22      +/- 1.108e+35    (1.224e+14%)
+
+correlation matrix of the fit parameters:
+                a      c      
+a               1.000 
+c              -0.998  1.000 
+
+
+*******************************************************************************
+Wed Sep 25 21:47:31 2019
+
+
+FIT:    data read from 'curve' using 1:2:3 yerror
+        format = x:z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = a + b * log(x + c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 3.1897593010e+64   0.00e+00  7.31e+30    8.929947e+27   1.000000e+00   9.051249e+22
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Sep 25 21:48:33 2019
+
+
+FIT:    data read from 'curve' yerror
+        format = z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = a + b * log(x + c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 8.9198087847e+58   0.00e+00  1.22e+28    1.493302e+25   1.000000e+00   9.060300e+22
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Sep 25 21:48:52 2019
+
+
+FIT:    data read from 'curve' using 1:2
+        format = x:z
+        #datapoints = 199
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b * log(x + c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.2409266824e+47   0.00e+00  1.44e+22    2.497161e+22   1.000000e+00   9.069360e+22
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Sep 25 21:49:22 2019
+
+
+FIT:    data read from 'curve' using 1:2:3 yerror
+        format = x:z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = c * (1 - exp(k * x))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 199
+x               = 9.07843e+22    
+z               = 114.9          
+
+Current set of parameters
+=========================
+c               = 9.07843e+22    
+k               = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Wed Sep 25 21:49:37 2019
+
+
+FIT:    data read from 'curve' using 1:2:3 yerror
+        format = x:z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = c * (1 - exp(k * x))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 199
+x               = 200            
+z               = 89             
+
+Current set of parameters
+=========================
+c               = 200            
+k               = 100            
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Wed Sep 25 21:50:15 2019
+
+
+FIT:    data read from 'curve' using 1:2:3 yerror
+        format = x:z:s
+        #datapoints = 199
+function used for fitting: f(x)
+	f(x) = c * (1 - exp(x / k))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 142 out of 199
+x               = 200            
+z               = 194.6          
+
+Current set of parameters
+=========================
+c               = 200            
+k               = 100            
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Wed Sep 25 21:50:24 2019
+
+
+FIT:    data read from 'curve' using 1:2
+        format = x:z
+        #datapoints = 199
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c * (1 - exp(x / k))
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 142 out of 199
+x               = 200            
+z               = 194.6          
+
+Current set of parameters
+=========================
+c               = 200            
+k               = 100            
+
+BREAK: Undefined value during function evaluation
