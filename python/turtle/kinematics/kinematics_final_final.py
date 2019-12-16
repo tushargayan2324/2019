@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-"""***Tushar Gayan***
+"""***author-Tushar Gayan***
    Give the acc in 3 dimension and it will give a data.txt file as set of points that can be plotted
    Vary the accuracy of graph by setting time_steps
 """
